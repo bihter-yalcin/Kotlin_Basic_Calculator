@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation ="vertical"
+    android:padding = "20dp">
+
+    <LinearLayout
+        android:layout_width="441dp"
+        android:layout_height="228dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="371dp"
+            android:layout_height="109dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:hint="0"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="383dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:hint="0"
+            android:inputType="numberDecimal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="77dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="20sp"></Button>
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_width="77dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="*"
+            android:textSize="20sp"></Button>
+
+        <Button
+            android:id="@+id/subtract"
+            android:layout_width="77dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="20sp"></Button>
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_width="77dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:text="/"
+            android:textSize="20sp"></Button>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop ="20dp"
+        android:hint="0"
+        android:gravity="center_horizontal"
+        android:textSize="24sp">
+
+    </TextView>
+
+
+</LinearLayout>
+
